@@ -22,7 +22,6 @@ Page({
     return year+month+day
   },
   setStocks: function (result){
-    console.log(result)
     let tmp = []
     for (let i = 0; i < result.length; ++i){
       tmp.push({
@@ -43,7 +42,6 @@ Page({
     this.setData({
       stocks: tmp
     })
-    console.log(tmp)
   },
   /**
    * 生命周期函数--监听页面加载

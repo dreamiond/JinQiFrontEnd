@@ -6,10 +6,10 @@
         <navigator url="/pages/dailySearch/dailySearch">
             <image class="riXian" src="/images/stockInfo/1RiXian.png" />
         </navigator>
-        <navigator>
+        <navigator url="/pages/ipo/ipo">
             <image class="ipo" src="/images/stockInfo/2IPO.png" />
         </navigator>
-        <navigator>
+        <navigator url="/pages/unban/unban">
             <image class="xianShou" src="/images/stockInfo/3XianShou.png" />
         </navigator>
         <view class='bottom'>-金旗金融-</view>

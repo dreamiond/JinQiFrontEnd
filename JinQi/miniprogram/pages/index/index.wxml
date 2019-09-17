@@ -4,11 +4,8 @@
   <navigator url="/pages/stockInfo/stockInfo">
     <image class="guPiao" src="/images/index/1GuPiao.png" />
   </navigator>
-    
     <image class="qiHuo" src="/images/index/2QiHuo.png" />
     <image class="qiQuan" src="/images/index/3QiQuan.png" />
-    <image class="hangYe" src="/images/index/4HangYe.png" />
-    <image class="hongGuan" src="/images/index/5HongGuan.png" />
     <image class="teSe" src="/images/index/6TeSe.png" />
     <view class='bottom'>-金旗金融-</view>
 </view>

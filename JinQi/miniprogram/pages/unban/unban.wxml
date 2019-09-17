@@ -1,0 +1,30 @@
+<!--pages/unban/unban.wxml-->
+<view class = "tips">普通用户仅显示最近一周禁售股解禁信息。</view>
+<view class="searchContainer">
+    <form bindsubmit="stockSearch">
+        <image class="searchIcon" src="/images/icon/search.png" />
+        <input class="searchBar" name="inputText" placeholder="请输入股东名称"/>
+        <button class="submitButton" form-type="submit">搜索</button>
+    </form>
+</view>
+<view class="stocksContainer" wx:for="{{stocks}}">
+    <view class="oneStock">
+        <view class="greyLine"></view>
+        <view class="column1"><view class="flexColumn1">
+            <view class="column1Text">TS代码：</view>
+            <view class="column1Text">公告日期：</view>
+            <view class="column1Text">解禁日期：</view>
+            <view class="column1Text">流通股份：</view>
+            <view class="column1Text">流通股份占总股本比率：</view>
+            <view class="column1Text">股份类型：</view>
+        </view></view>
+        <view class="column2"><view class="flexColumn2">
+            <view class="column2Text">{{item.ts_code}}</view>
+            <view class="column2Text">{{item.ann_date}}</view>
+            <view class="column2Text">{{item.float_date}}</view>
+            <view class="column2Text">{{item.float_share}}</view>
+            <view class="column2Text">{{item.float_ratio}}</view>
+            <view class="column2Text">{{item.share_type}}</view>
+        </view></view>
+    </view>
+</view>

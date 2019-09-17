@@ -1,2 +1,24 @@
 <!--pages/ipo/ipo.wxml-->
-<text>pages/ipo/ipo.wxml</text>
+<view class = "tips">普通用户仅显示最近一个月IPO新股信息。</view>
+<view class = "ipoContainer" wx:for="{{stocks}}">
+    <view class="greyLine"></view>
+    <view class="oneStock">
+        <view class="name">{{item.name}}</view>
+        <view class="column1"><view class="flexColumn1">
+            <view class="column1Text">TS股票代码: {{item.ts_code}}</view>
+            <view class="column1Text">申购代码: {{item.sub_code}}</view>
+            <view class="column1Text">上网发行日期: {{item.ipo_date}}</view>
+            <view class="column1Text">上市日期: {{item.issue_date}}</view>
+            <view class="column1Text">发行总量(万股): {{item.amount}}</view>
+            <view class="column1Text">上网发行总量(万股): {{item.market_amount}}</view>
+        </view></view>
+        <view class="column2"><view class="flexColumn2">
+            <view class="column2Text">发行价格: {{item.price}}</view>
+            <view class="column2Text">市盈率: {{item.pe}}</view>
+            <view class="column2Text">个人申购上限(万股): {{item.limit_amount}}</view>
+            <view class="column2Text">募集资金(亿元): {{item.funds}}</view>
+            <view class="column2Text">中签率: {{item.ballot}}</view>
+        </view></view>
+    </view>
+</view>
+  
