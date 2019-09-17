@@ -1,0 +1,17 @@
+<!--pages/stockInfo/stockInfo.wxml-->
+<image class="topImage" src="/images/stockInfo/top.png"/>
+
+<view class="imageContainer">
+    <view class="greyLine"></view>
+        <navigator url="/pages/dailySearch/dailySearch">
+            <image class="riXian" src="/images/stockInfo/1RiXian.png" />
+        </navigator>
+        <navigator>
+            <image class="ipo" src="/images/stockInfo/2IPO.png" />
+        </navigator>
+        <navigator>
+            <image class="xianShou" src="/images/stockInfo/3XianShou.png" />
+        </navigator>
+        <view class='bottom'>-金旗金融-</view>
+</view>
+  

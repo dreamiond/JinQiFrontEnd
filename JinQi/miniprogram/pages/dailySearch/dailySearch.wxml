@@ -1,0 +1,18 @@
+<!--pages/dailySearch/dailySearch.wxml-->
+<view class="searchContainer">
+    <form bindsubmit="stockSearch">
+        <image class="searchIcon" src="/images/icon/search.png" />
+        <input class="searchBar" name="inputText" placeholder="请输入股票代码/名称"/>
+        <button class="submitButton" form-type="submit">搜索</button>
+    </form>
+    <view class="topGreyLine"></view>
+</view>
+<view class="resultContainer" wx:for="{{stocks}}">
+    <navigator url="/pages/daily/daily?stockId={{item.stockId}}&stockName={{item.stockName}}">
+        <view class="oneResult">
+            <view class="stockName">{{item.stockName}}</view>
+            <view class="stockId">{{item.stockId}}</view>
+            <view class="greyLine"></view>
+        </view>
+    </navigator>
+</view>

@@ -1,0 +1,47 @@
+.topImage{
+    width: 750rpx;
+    height: 350rpx;
+}
+.imageContainer{
+    width: 750rpx;
+    height: 950rpx;
+    position: relative;
+}
+.greyLine{
+    width: 650rpx;
+    height: 2rpx;
+    background-color: grey;
+    position: absolute;
+    top: 30rpx;
+    left: 50rpx;
+}
+.riXian{
+    width: 650rpx;
+    height: 250rpx;
+    position: absolute;
+    left: 50rpx;
+    top: 60rpx;
+}
+.ipo{
+    width: 650rpx;
+    height: 250rpx;
+    position: absolute;
+    left: 50rpx;
+    top: 340rpx;
+}
+.xianShou{
+    width: 650rpx;
+    height: 250rpx;
+    position: absolute;
+    left: 50rpx;
+    top: 620rpx;
+}
+.bottom{
+    width: 750rpx;
+    height: 50rpx;
+    position: absolute;
+    top: 890rpx;
+    font-size: 28rpx;
+    line-height: 39rpx;
+    text-align: center;
+}

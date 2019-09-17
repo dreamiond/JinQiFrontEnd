@@ -1,0 +1,84 @@
+.tips{
+    position: relative;
+    width: 750rpx;
+    height: 40rpx;
+    text-align: center;
+    font-size: 28rpx;
+    line-height: 39rpx;
+    color: grey;
+}
+.stocksContainer{
+    position: relative;
+    width: 750rpx;
+}
+.oneStock{
+    position: relative;
+    width: 750rpx;
+    height: 400rpx;
+}
+.date{
+    position: absolute;
+    width: 112rpx;
+    height: 212rpx;
+    left: 84rpx;
+    top: 94rpx;
+}
+.flexDate{
+    width: 112rpx;
+    height: 212rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dateText{
+    font-size: 50rpx;
+    line-height: 70rpx;
+}
+.itemName{
+    position: absolute;
+    width: 160rpx;
+    height: 360rpx;
+    left: 276rpx;
+    top: 20rpx;
+}
+.flexItemName{
+    width: 160rpx;
+    height: 360rpx;
+    display: flex;
+    flex-direction: column;
+}
+.itemNameText{
+    font-size: 28rpx;
+    line-height: 39rpx;
+}
+.itemVolume{
+    position: absolute;
+    width: 206rpx;
+    height: 360rpx;
+    left: 460rpx;
+    top: 20rpx;
+}
+.flexItemVolume{
+    width: 206rpx;
+    height: 360rpx;
+    display: flex;
+    flex-direction: column;
+}
+.itemVolumeText{
+    font-size: 28rpx;
+    line-height: 39rpx;
+}
+.greyLine{
+    width: 750rpx;
+    height: 2rpx;
+    background-color: grey;
+    position: relative;
+    top: 0;
+}
+.stockName{
+    width: 750rpx;
+    text-align: center;
+    font-size: 40rpx;
+    line-height: 56rpx;
+    font-weight: bold;
+}

@@ -1,0 +1,74 @@
+.searchContainer{
+    width: 750rpx;
+    height: 100rpx;
+    position: relative;
+}
+.searchBar{
+    position: absolute;
+    left: 20rpx;
+    top: 20rpx;
+    width: 540rpx;
+    height: 60rpx;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-width: 1rpx;
+    border-radius: 20rpx;
+    text-align: center;
+    font-size: 28rpx;
+    line-height: 39rpx;
+}
+.searchIcon{
+    position: absolute;
+    top: 30rpx;
+    left: 40rpx;
+    width: 40rpx;
+    height: 40rpx;
+}
+.submitButton{
+    position: absolute;
+    left: 600rpx;
+    top: 20rpx;
+    width: 150rpx;
+    height: 60rpx;
+    font-size: 28rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topGreyLine{
+    position: absolute;
+    left: 20rpx;
+    top: 98rpx;
+    width: 710rpx;
+    height: 2rpx;
+    background-color: grey;
+}
+.resultContainer{
+    width: 750rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.oneResult{
+    width: 750rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rpx;
+}
+.stockName{
+    font-size: 32rpx;
+    line-height: 45rpx;
+}
+.stockId{
+    font-size: 28rpx;
+    line-height: 39rpx;
+    color: rgb(157, 157, 157);
+}
+.greyLine{
+    width: 710rpx;
+    height: 2rpx;
+    background-color: grey;
+    position: relative;
+    bottom: 0;
+}

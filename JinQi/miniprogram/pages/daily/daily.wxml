@@ -1,0 +1,37 @@
+<!--pages/daily/daily.wxml-->
+<view class = "tips">普通用户仅显示最近两周日线数据。</view>
+<view class = "stockName">{{stockName}}</view>
+<view class="stocksContainer" wx:for="{{stocks}}">
+    <view class="oneStock">
+        <view class="greyLine"></view>
+        <view class="date"><view class="flexDate">
+            <view class="dateText">{{item.year}}</view>
+            <view class="dateText">{{item.month}}</view>
+            <view class="dateText">{{item.day}}</view>
+        </view></view>
+        <view class="itemName"><view class="flexItemName">
+            <view class="itemNameText">开盘价</view>
+            <view class="itemNameText">最高价</view>
+            <view class="itemNameText">最低价</view>
+            <view class="itemNameText">收盘价</view>
+            <view class="itemNameText">昨收价</view>
+            <view class="itemNameText">涨跌额</view>
+            <view class="itemNameText">涨跌幅</view>
+            <view class="itemNameText">成交量(手)</view>
+            <view class="itemNameText">成交额(千元)</view>
+        </view></view>
+        <view class="itemVolume"><view class="flexItemVolume">
+            <view class="itemVolumeText">{{item.open}}</view>
+            <view class="itemVolumeText">{{item.high}}</view>
+            <view class="itemVolumeText">{{item.low}}</view>
+            <view class="itemVolumeText">{{item.close}}</view>
+            <view class="itemVolumeText">{{item.pre_close}}</view>
+            <view class="itemVolumeText">{{item.change}}</view>
+            <view class="itemVolumeText">{{item.pct_chg}}</view>
+            <view class="itemVolumeText">{{item.vol}}</view>
+            <view class="itemVolumeText">{{item.amount}}</view>
+        </view></view>
+    </view>
+</view>
+  
+  
