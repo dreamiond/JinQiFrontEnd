@@ -5,7 +5,9 @@
     "pages/dailySearch/dailySearch",
     "pages/daily/daily",
     "pages/ipo/ipo",
-    "pages/unban/unban"
+    "pages/unban/unban",
+    "pages/futures/futures",
+    "pages/shareOption/shareOption"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

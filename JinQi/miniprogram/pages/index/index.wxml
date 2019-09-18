@@ -4,10 +4,16 @@
   <navigator url="/pages/stockInfo/stockInfo">
     <image class="guPiao" src="/images/index/1GuPiao.png" />
   </navigator>
+  <navigator url="/pages/futures/futures">
     <image class="qiHuo" src="/images/index/2QiHuo.png" />
+  </navigator>
+  <navigator url="/pages/shareOption/shareOption">
     <image class="qiQuan" src="/images/index/3QiQuan.png" />
+  </navigator>
+  <navigator url="/pages/stockInfo/stockInfo">
     <image class="teSe" src="/images/index/6TeSe.png" />
-    <view class='bottom'>-金旗金融-</view>
+  </navigator>  
+  <view class='bottom'>-金旗金融-</view>
 </view>
   
   

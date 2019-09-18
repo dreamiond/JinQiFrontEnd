@@ -1,0 +1,43 @@
+<!--pages/shareOption/shareOption.wxml-->
+<view class = "tips">普通用户仅显示最近一周期权日线数据。</view>
+<view class="searchContainer">
+    <form bindsubmit="stockSearch">
+        <image class="searchIcon" src="/images/icon/search.png" />
+        <input class="searchBar" name="inputText" placeholder="请输入TS合约代码"/>
+        <button class="submitButton" form-type="submit">搜索</button>
+    </form>
+</view>
+<view class="stocksContainer" >
+    <view class="oneStock" wx:for="{{stocks}}">
+        <view class="greyLine"></view>
+        <view class="column1"><view class="flexColumn1">
+            <view class="column1Text">交易日期：</view>
+            <view class="column1Text">交易市场</view>
+            <view class="column1Text">昨结算价</view>
+            <view class="column1Text">前收盘价</view>
+            <view class="column1Text">开盘价</view>
+            <view class="column1Text">最高价</view>
+            <view class="column1Text">最低价</view>
+            <view class="column1Text">收盘价</view>
+            <view class="column1Text">结算价：</view>
+            <view class="column1Text">成交量(手)：</view>
+            <view class="column1Text">成交金额(万元)：</view>
+            <view class="column1Text">持仓量(手)：</view>
+        </view></view>
+        <view class="column2"><view class="flexColumn2">
+            <view class="column2Text">{{item.trade_date}}</view>
+            <view class="column2Text">{{item.exchange}}</view>
+            <view class="column2Text">{{item.pre_settle}}</view>
+            <view class="column2Text">{{item.pre_close}}</view>
+            <view class="column2Text">{{item.open}}</view>
+            <view class="column2Text">{{item.high}}</view>
+            <view class="column2Text">{{item.low}}</view>
+            <view class="column2Text">{{item.close}}</view>
+            <view class="column2Text">{{item.settle}}</view>
+            <view class="column2Text">{{item.vol}}</view>
+            <view class="column2Text">{{item.amount}}</view>
+            <view class="column2Text">{{item.oi}}</view>
+        </view></view>
+    </view>
+</view>
+

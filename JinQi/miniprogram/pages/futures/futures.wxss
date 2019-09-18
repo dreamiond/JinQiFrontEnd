@@ -1,0 +1,88 @@
+.tips{
+    position: relative;
+    width: 750rpx;
+    height: 40rpx;
+    text-align: center;
+    font-size: 28rpx;
+    line-height: 39rpx;
+    color: grey;
+}
+.searchContainer{
+    width: 750rpx;
+    height: 100rpx;
+    position: relative;
+}
+.searchBar{
+    position: absolute;
+    left: 20rpx;
+    top: 20rpx;
+    width: 540rpx;
+    height: 60rpx;
+    border-style: solid;
+    border-color: rgb(187, 187, 187);
+    border-width: 1rpx;
+    border-radius: 20rpx;
+    text-align: center;
+    font-size: 28rpx;
+    line-height: 39rpx;
+}
+.searchIcon{
+    position: absolute;
+    top: 30rpx;
+    left: 40rpx;
+    width: 40rpx;
+    height: 40rpx;
+}
+.submitButton{
+    position: absolute;
+    left: 600rpx;
+    top: 20rpx;
+    width: 150rpx;
+    height: 60rpx;
+    font-size: 28rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.greyLine{
+    width: 750rpx;
+    height: 2rpx;
+    background-color: grey;
+    position: relative;
+    top: 0;
+}
+.stocksContainer{
+    position: relative;
+    width: 750rpx;
+}
+.oneStock{
+    position: relative;
+    width: 750rpx;
+    height: 490rpx;
+}
+.column1{
+    position: absolute;
+    left: 40rpx;
+    top: 4rpx;
+}
+.flexColumn1{
+    display: flex;
+    flex-direction: column;
+}
+.column1Text{
+    font-size: 24rpx;
+    line-height: 34rpx;
+}
+.column2{
+    position: absolute;
+    left: 340rpx;
+    top: 4rpx;
+}
+.flexColumn2{
+    display: flex;
+    flex-direction: column;
+}
+.column2Text{
+    font-size: 24rpx;
+    line-height: 34rpx;
+}
